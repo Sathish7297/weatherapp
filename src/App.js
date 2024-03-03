@@ -18,7 +18,7 @@ const Weatherdetails = ({ icon, temp, location, country, wind, lattitude, longit
     <>
       <div className='image'>
         <img src={icon} alt='sunimg' className='image' />
-      </div> <br/><br/>
+      </div> <br/>
       <div className='temp'>{temp}&deg;C</div>
       <div className='location'>{location}</div>
       <div className='country'>{country}</div>
